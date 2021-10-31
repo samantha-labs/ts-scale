@@ -1,6 +1,6 @@
 {
 	"name": "@neoncitylights/scale",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"description": "A mathematical library in TypeScript for working with progressions",
 	"license": "MIT",
 	"author": {

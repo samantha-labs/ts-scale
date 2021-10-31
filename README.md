@@ -6,6 +6,12 @@
 
 A mathematical library in TypeScript for working with progressions - sequences of numbers that convey a certain pattern.
 
+## Install
+```bash
+npm install @neoncitylights/scale
+```
+
+## Documentation
 [Auto-generated API documentation is available](https://neoncitylights.github.io/ts-scale/).
 
 There are 3 types of a progression in math:
@@ -21,23 +27,27 @@ There are 3 types of a progression in math:
     ```ts
     [1, 1/2, 1/3, 1/4, 1/5, 1/6]
     ```
-
-## Install
-```bash
-npm install @neoncitylights/scale
-```
-
-## API
-### Generators
+### API
+#### Generators
  * <a href="#newArithmeticProgression" name="newArithmeticProgression">#</a> generators.**newArithmeticProgression**(*startNumber*, *length*, *step*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newArithmeticProgression)
  * <a href="#newGeometricProgression" name="newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newGeometricProgression)
  * <a href="#newHarmonicProgression" name="newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression)
-### Predicates
+#### Predicates
  * <a href="#isArithmeticProgression" name="isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isArithmeticProgression)
  * <a href="#isGeometricProgression" name="isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isGeometricProgression)
  * <a href="#isHarmonicProgression" name="isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression)
-### Constants
-There are constants for some certain music intervals that can be used to co-inside 
+#### Constants
+There are constants for certain music intervals that can be used coincide with the generator functions.
+
+* <a href="#minorSecond" name="minorSecond">#</a> MinorSecond
+* <a href="#majorSecond" name="majorSecond">#</a> MajorSecond
+* <a href="#minorThird" name="minorThird">#</a> MinorThird
+* <a href="#majorThird" name="majorThird">#</a> MajorThird
+* <a href="#perfectThird" name="perfectThird">#</a> PerfectThird
+* <a href="#augmentedFourth" name="augmentedFourth">#</a> AugmentedFourth
+* <a href="#perfectFifth" name="perfectFifth">#</a> PerfectFifth
+* <a href="#goldenRatio" name="goldenRatio">#</a> GoldenRatio
+* <a href="#majorSixth" name="majorSixth">#</a> MajorSixth
 
 ## Examples
 ### Typographic scales
@@ -45,16 +55,18 @@ This library can be used to generate a typography scale for web projects.
 
 For example, to generate a scale on a major second where the base font size is `16px`:
 ```ts
-const MajorSecond: number = 1.125;
-newGeometricProgression(16, MajorSecond, 6).map(n => `${n.toFixed(3)}px`));
+newGeometricProgression(16, MajorSecond, 6).map(n => `${n.toFixed(3)}px`);
 // ["16.000px", "18.000px", "20.250px", "22.781px", "25.629px", "28.833px"]
 ```
 
 These floating points aren't easy to remember, so we have the option to modify this scale by rounding each value:
 ```ts
-newGeometricProgression(16, MajorSecond, 6).map(n => `${Math.round(n)}px`));
+newGeometricProgression(16, MajorSecond, 6).map(n => `${Math.round(n)}px`);
 // ["16px", "18px", "20px", "23px", "26px", "29px"]
 ```
+
+# License
+This library is licensed under the [MIT License](./LICENSE).
 
 [^arith-wolfram]: Weisstein, Eric W. "Arithmetic Progression." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/ArithmeticProgression.html 
 [^geo-wolfram]:  Weisstein, Eric W. "Geometric Sequence." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/GeometricSequence.html 
