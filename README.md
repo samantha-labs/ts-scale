@@ -1,5 +1,6 @@
 # `@neoncitylights/scale`
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![npm (scoped)](https://img.shields.io/npm/v/@neoncitylights/scale)
 [![codecov](https://codecov.io/gh/neoncitylights/ts-scale/branch/main/graph/badge.svg?token=c7KOrPxoIb)](https://codecov.io/gh/neoncitylights/ts-scale)
 [![Node.js workflow](https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml/badge.svg)](https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml)
 [![GitHub Pages Docs](https://img.shields.io/badge/gh--pages--docs-running-brightgreen)](https://neoncitylights.github.io/ts-scale/)
