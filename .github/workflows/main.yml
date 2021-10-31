@@ -16,7 +16,9 @@ jobs:
         with:
           node-version: '14'
           cache: 'npm'
-      - run: npm install --production=false
+      - run: |
+          npm install --production=false
+          npx webpack
       - run: npm run test:all
       - run: npm run build:all
       - run: gh-pages -d docs/typedocs
