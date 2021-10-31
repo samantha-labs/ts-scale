@@ -16,12 +16,8 @@ jobs:
         with:
           node-version: '14'
           cache: 'npm'
-      - run: |
-          npm install --production=false
-          npx webpack
+      - run: npm install
       - run: npm run test:all
-      - run: npm run build:all
-      - run: gh-pages -d docs/typedocs
       - uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
