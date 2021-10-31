@@ -4,9 +4,11 @@
 </a>
 <p><a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
 <a href="https://codecov.io/gh/neoncitylights/ts-scale"><img src="https://codecov.io/gh/neoncitylights/ts-scale/branch/main/graph/badge.svg?token=c7KOrPxoIb" alt="codecov"></a>
-<a href="https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml"><img src="https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml/badge.svg" alt="Node.js workflow"></a></p>
-<p>A mathematical library in TypeScript for working with progressions - sequences of numbers that convey a certain pattern.
-There are 3 types of a progression in math:</p>
+<a href="https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml"><img src="https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml/badge.svg" alt="Node.js workflow"></a>
+<a href="https://neoncitylights.github.io/ts-scale/"><img src="https://img.shields.io/badge/gh--pages--docs-running-brightgreen" alt="GitHub Pages Docs"></a></p>
+<p>A mathematical library in TypeScript for working with progressions - sequences of numbers that convey a certain pattern.</p>
+<p><a href="https://neoncitylights.github.io/ts-scale/">Auto-generated API documentation is available</a>.</p>
+<p>There are 3 types of a progression in math:</p>
 <ul>
 <li><strong>Arithmetic progression</strong>: A sequence of numbers where the consecutive difference between each term is a constant.[^arith-wolfram][^arithm-wiki] E.g., an arithmetic progression of 5 numbers, with 2 as the common difference, starting at 1:<pre><code class="language-ts"><span class="hl-1">[</span><span class="hl-2">1</span><span class="hl-1">, </span><span class="hl-2">3</span><span class="hl-1">, </span><span class="hl-2">5</span><span class="hl-1">, </span><span class="hl-2">7</span><span class="hl-1">, </span><span class="hl-2">9</span><span class="hl-1">]</span>
 </code></pre>
@@ -33,16 +35,16 @@ There are 3 types of a progression in math:</p>
   <h3>Generators</h3>
 </a>
 <ul>
-<li><a href="#newArithmeticProgression" name="newArithmeticProgression">#</a> generators.<strong>newArithmeticProgression</strong>(<em>startNumber</em>, <em>length</em>, <em>step</em>): <em>number[]</em> <a href="./src/generators.ts">&lt;&gt;</a></li>
-<li><a href="#newGeometricProgression" name="newGeometricProgression">#</a> generators.<strong>newGeometricProgression</strong>(<em>startNumber</em>, <em>length</em>, <em>scale</em>): <em>number[]</em> <a href="./src/generators.ts">&lt;&gt;</a></li>
-<li><a href="#newHarmonicProgression" name="newHarmonicProgression">#</a> generators.<strong>newHarmonicProgression</strong>(<em>startNumber</em>, <em>length</em>, <em>scale</em>): <em>number[]</em> <a href="./src/generators.ts">&lt;&gt;</a>
+<li><a href="#newArithmeticProgression" name="newArithmeticProgression">#</a> generators.<strong>newArithmeticProgression</strong>(<em>startNumber</em>, <em>length</em>, <em>step</em>): <em>number[]</em> • <a href="./src/generators.ts">source</a>, <a href="https://neoncitylights.github.io/ts-scale/modules.html#newArithmeticProgression">docs</a></li>
+<li><a href="#newGeometricProgression" name="newGeometricProgression">#</a> generators.<strong>newGeometricProgression</strong>(<em>startNumber</em>, <em>length</em>, <em>scale</em>): <em>number[]</em> • <a href="./src/generators.ts">source</a>, <a href="https://neoncitylights.github.io/ts-scale/modules.html#newGeometricProgression">docs</a></li>
+<li><a href="#newHarmonicProgression" name="newHarmonicProgression">#</a> generators.<strong>newHarmonicProgression</strong>(<em>startNumber</em>, <em>length</em>, <em>scale</em>): <em>number[]</em> • <a href="./src/generators.ts">source</a>, <a href="https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression">docs</a>
 <a href="#predicates" id="predicates" style="color: inherit; text-decoration: none;">
   <h3>Predicates</h3>
 </a>
 </li>
-<li><a href="#isArithmeticProgression" name="isArithmeticProgression">#</a> predicates.<strong>isArithmeticProgression</strong>(<em>numbers</em>): <em>PredicateResult</em> <a href="./src/predicates.ts">&lt;&gt;</a></li>
-<li><a href="#isGeometricProgression" name="isGeometricProgression">#</a> predicates.<strong>isGeometricProgression</strong>(<em>numbers</em>): <em>PredicateResult</em> <a href="./src/predicates.ts">&lt;&gt;</a></li>
-<li><a href="#isHarmonicProgression" name="isHarmonicProgression">#</a> predicates.<strong>isHarmonicProgression</strong>(<em>numbers</em>): <em>PredicateResult</em> <a href="./src/predicates.ts">&lt;&gt;</a></li>
+<li><a href="#isArithmeticProgression" name="isArithmeticProgression">#</a> predicates.<strong>isArithmeticProgression</strong>(<em>numbers</em>): <em>PredicateResult</em> • <a href="./src/predicates.ts">source</a>, <a href="https://neoncitylights.github.io/ts-scale/modules.html#isArithmeticProgression">docs</a></li>
+<li><a href="#isGeometricProgression" name="isGeometricProgression">#</a> predicates.<strong>isGeometricProgression</strong>(<em>numbers</em>): <em>PredicateResult</em> • <a href="./src/predicates.ts">source</a>, <a href="https://neoncitylights.github.io/ts-scale/modules.html#isGeometricProgression">docs</a></li>
+<li><a href="#isHarmonicProgression" name="isHarmonicProgression">#</a> predicates.<strong>isHarmonicProgression</strong>(<em>numbers</em>): <em>PredicateResult</em> • <a href="./src/predicates.ts">source</a>, <a href="https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression">docs</a></li>
 </ul>
 
 <a href="#examples" id="examples" style="color: inherit; text-decoration: none;">
