@@ -1,4 +1,8 @@
 # `@neoncitylights/scale`
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![codecov](https://codecov.io/gh/neoncitylights/ts-scale/branch/main/graph/badge.svg?token=c7KOrPxoIb)](https://codecov.io/gh/neoncitylights/ts-scale)
+[![Node.js workflow](https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml/badge.svg)](https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml)
+
 A mathematical library in TypeScript for working with progressions - sequences of numbers that convey a certain pattern.
 There are 3 types of a progression in math:
   - **Arithmetic progression**: A sequence of numbers where the consecutive difference between each term is a constant.[^arith-wolfram][^arithm-wiki] E.g., an arithmetic progression of 5 numbers, with 2 as the common difference, starting at 1:
