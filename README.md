@@ -31,7 +31,7 @@ There are 3 types of a progression in math:
 #### Generators
  * <a href="#newArithmeticProgression" name="newArithmeticProgression">#</a> generators.**newArithmeticProgression**(*startNumber*, *length*, *step*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newArithmeticProgression)
  * <a href="#newGeometricProgression" name="newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newGeometricProgression)
- * <a href="#newHarmonicProgression" name="newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression)
+ * <a href="#newHarmonicProgression" name="newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newHarmonicProgression)
 #### Predicates
  * <a href="#isArithmeticProgression" name="isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isArithmeticProgression)
  * <a href="#isGeometricProgression" name="isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isGeometricProgression)
