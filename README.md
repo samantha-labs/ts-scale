@@ -2,8 +2,12 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![codecov](https://codecov.io/gh/neoncitylights/ts-scale/branch/main/graph/badge.svg?token=c7KOrPxoIb)](https://codecov.io/gh/neoncitylights/ts-scale)
 [![Node.js workflow](https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml/badge.svg)](https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml)
+[![GitHub Pages Docs](https://img.shields.io/badge/gh--pages--docs-running-brightgreen)](https://neoncitylights.github.io/ts-scale/)
 
 A mathematical library in TypeScript for working with progressions - sequences of numbers that convey a certain pattern.
+
+[Auto-generated API documentation is available](https://neoncitylights.github.io/ts-scale/).
+
 There are 3 types of a progression in math:
   - **Arithmetic progression**: A sequence of numbers where the consecutive difference between each term is a constant.[^arith-wolfram][^arithm-wiki] E.g., an arithmetic progression of 5 numbers, with 2 as the common difference, starting at 1:
     ```ts
@@ -25,13 +29,13 @@ npm install @neoncitylights/scale
 
 ## API
 ### Generators
- * <a href="#newArithmeticProgression" name="newArithmeticProgression">#</a> generators.**newArithmeticProgression**(*startNumber*, *length*, *step*): *number[]* [<>](./src/generators.ts)
- * <a href="#newGeometricProgression" name="newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* [<>](./src/generators.ts)
- * <a href="#newHarmonicProgression" name="newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* [<>](./src/generators.ts)
+ * <a href="#newArithmeticProgression" name="newArithmeticProgression">#</a> generators.**newArithmeticProgression**(*startNumber*, *length*, *step*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newArithmeticProgression)
+ * <a href="#newGeometricProgression" name="newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newGeometricProgression)
+ * <a href="#newHarmonicProgression" name="newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression)
 ### Predicates
- * <a href="#isArithmeticProgression" name="isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *PredicateResult* [<>](./src/predicates.ts)
- * <a href="#isGeometricProgression" name="isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *PredicateResult* [<>](./src/predicates.ts)
- * <a href="#isHarmonicProgression" name="isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *PredicateResult* [<>](./src/predicates.ts)
+ * <a href="#isArithmeticProgression" name="isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *PredicateResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isArithmeticProgression)
+ * <a href="#isGeometricProgression" name="isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *PredicateResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isGeometricProgression)
+ * <a href="#isHarmonicProgression" name="isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *PredicateResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression)
 
 
 ## Examples
