@@ -25,13 +25,13 @@ npm install @neoncitylights/scale
 
 ## API
 ### Generators
- * <a href="#newArithmeticProgression" name="newArithmeticProgression">#</a> generators.**newArithmeticProgression**(*startNumber*, *length*, *step*): *number[]* [<>](./src/generators/newArithmeticProgression.ts)
- * <a href="#newGeometricProgression" name="newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* [<>](./src/generators/newGeometricProgression.ts)
- * <a href="#newHarmonicProgression" name="newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* [<>](./src/generators/newHarmonicProgression.ts)
+ * <a href="#newArithmeticProgression" name="newArithmeticProgression">#</a> generators.**newArithmeticProgression**(*startNumber*, *length*, *step*): *number[]* [<>](./src/generators.ts)
+ * <a href="#newGeometricProgression" name="newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* [<>](./src/generators.ts)
+ * <a href="#newHarmonicProgression" name="newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* [<>](./src/generators.ts)
 ### Predicates
- * <a href="#isArithmeticProgression" name="isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *PredicateResult* [<>](./src/predicates/isArithmeticProgression.ts)
- * <a href="#isGeometricProgression" name="isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *PredicateResult* [<>](./src/predicates/isGeometricProgression.ts)
- * <a href="#isHarmonicProgression" name="isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *PredicateResult* [<>](./src/predicates/isHarmonicProgression.ts)
+ * <a href="#isArithmeticProgression" name="isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *PredicateResult* [<>](./src/predicates.ts)
+ * <a href="#isGeometricProgression" name="isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *PredicateResult* [<>](./src/predicates.ts)
+ * <a href="#isHarmonicProgression" name="isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *PredicateResult* [<>](./src/predicates.ts)
 
 
 ## Examples
