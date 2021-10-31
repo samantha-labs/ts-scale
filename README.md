@@ -33,10 +33,11 @@ npm install @neoncitylights/scale
  * <a href="#newGeometricProgression" name="newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newGeometricProgression)
  * <a href="#newHarmonicProgression" name="newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression)
 ### Predicates
- * <a href="#isArithmeticProgression" name="isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *PredicateResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isArithmeticProgression)
- * <a href="#isGeometricProgression" name="isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *PredicateResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isGeometricProgression)
- * <a href="#isHarmonicProgression" name="isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *PredicateResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression)
-
+ * <a href="#isArithmeticProgression" name="isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isArithmeticProgression)
+ * <a href="#isGeometricProgression" name="isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isGeometricProgression)
+ * <a href="#isHarmonicProgression" name="isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression)
+### Constants
+There are constants for some certain music intervals that can be used to co-inside 
 
 ## Examples
 ### Typographic scales
