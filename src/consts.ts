@@ -1,0 +1,10 @@
+export const MinorSecond = 1.067;
+export const MajorSecond = 1.125;
+export const MinorThird = 1.200;
+export const MajorThird = 1.250;
+export const PerfectThird = 1.333;
+export const AugumentedFourth = 1.414;
+export const PerfectFifth = 1.500;
+export const GoldenRatio = 1.616;
+export const MajorSixth = 1.667;
+export const MinorSeventh = 1.778;
