@@ -20,7 +20,8 @@
 		"type": "individual",
 		"url": "https://github.com/sponsors/neoncitylights"
 	},
-	"main": "index.js",
+	"main": "./dist/bundle.js",
+	"types": "./dist/index.d.ts",
 	"directories": {
 		"test": "tests"
 	},
@@ -28,7 +29,7 @@
 		"build": "webpack --color",
 		"build:typedoc": "npx typedoc",
 		"build:all": "npm run build && npm run build:typedoc",
-		"clean": "rm -rf ./lib/ ./docs/typedocs/",
+		"clean": "rm -rf ./dist/ ./docs/typedocs/",
 		"test": "jest --coverage",
 		"lint": "eslint src --ext .ts,.tsx",
 		"lint:fix": "eslint --fix src --ext .ts,.tsx",
@@ -45,6 +46,7 @@
 		"@typescript-eslint/parser": "^4.32.0",
 		"eslint": "^7.32.0",
 		"eslint-plugin-jest": "^24.5.0",
+		"gh-pages": "^3.2.3",
 		"jest": "^27.0.6",
 		"ts-jest": "^27.0.4",
 		"ts-loader": "^9.2.6",
