@@ -30,26 +30,26 @@ There are 3 types of a progression in math:
     ```
 ### API
 #### Generators
- * <a href="#newArithmeticProgression" name="newArithmeticProgression">#</a> generators.**newArithmeticProgression**(*startNumber*, *length*, *step*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newArithmeticProgression)
- * <a href="#newGeometricProgression" name="newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newGeometricProgression)
- * <a href="#newHarmonicProgression" name="newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newHarmonicProgression)
+ * <a href="#newArithmeticProgression">#</a> generators.**newArithmeticProgression**(*startNumber*, *length*, *step*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newArithmeticProgression)
+ * <a href="#newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newGeometricProgression)
+ * <a href="#newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newHarmonicProgression)
 #### Predicates
- * <a href="#isArithmeticProgression" name="isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isArithmeticProgression)
- * <a href="#isGeometricProgression" name="isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isGeometricProgression)
- * <a href="#isHarmonicProgression" name="isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression)
+ * <a href="#isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isArithmeticProgression)
+ * <a href="#isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isGeometricProgression)
+ * <a href="#isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression)
 #### Constants
 There are constants for certain music intervals that can be used coincide with the generator functions.
 
-* <a href="#minorSecond" name="minorSecond">#</a> MinorSecond
-* <a href="#majorSecond" name="majorSecond">#</a> MajorSecond
-* <a href="#minorThird" name="minorThird">#</a> MinorThird
-* <a href="#majorThird" name="majorThird">#</a> MajorThird
-* <a href="#perfectThird" name="perfectThird">#</a> PerfectThird
-* <a href="#augmentedFourth" name="augmentedFourth">#</a> AugmentedFourth
-* <a href="#perfectFifth" name="perfectFifth">#</a> PerfectFifth
-* <a href="#goldenRatio" name="goldenRatio">#</a> GoldenRatio
-* <a href="#majorSixth" name="majorSixth">#</a> MajorSixth
-
+* <a href="#minorSecond">#</a> MinorSecond
+* <a href="#majorSecond">#</a> MajorSecond
+* <a href="#minorThird">#</a> MinorThird
+* <a href="#majorThird">#</a> MajorThird
+* <a href="#perfectThird">#</a> PerfectThird
+* <a href="#augmentedFourth">#</a> AugmentedFourth
+* <a href="#perfectFifth">#</a> PerfectFifth
+* <a href="#goldenRatio">#</a> GoldenRatio
+* <a href="#majorSixth">#</a> MajorSixth
+* <a href="#majorSeventh">#</a> MajorSeventh
 ## Examples
 ### Typographic scales
 This library can be used to generate a typography scale for web projects.
