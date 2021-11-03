@@ -37,6 +37,12 @@ There are 3 types of a progression in math:
  * <a href="#isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isArithmeticProgression)
  * <a href="#isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isGeometricProgression)
  * <a href="#isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression)
+
+#### Totals (sums and products)
+ * <a href="#getProductFromArray">#</a> total.**getProductFromArray**(*factors*, *lambda*): number • [source](./src/total.ts)
+ * <a href="#getProductFromBounds">#</a> total.**getProductFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts)
+ * <a href="#getSumFromArray">#</a> total.**getSumFromArray**(*summands*, *lambda*): number • [source](./src/total.ts)
+ * <a href="#getSumFromBounds">#</a> total.**getSumFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts)
 #### Constants
 There are constants for certain music intervals that can be used coincide with the generator functions.
 
@@ -50,6 +56,9 @@ There are constants for certain music intervals that can be used coincide with t
 * <a href="#goldenRatio">#</a> GoldenRatio
 * <a href="#majorSixth">#</a> MajorSixth
 * <a href="#majorSeventh">#</a> MajorSeventh
+* <a href="#emptySum">#</a> EmptySum
+* <a href="#emptyProduct">#</a> EmptyProduct
+
 ## Examples
 ### Typographic scales
 This library can be used to generate a typography scale for web projects.
