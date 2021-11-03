@@ -1,4 +1,4 @@
-import { getProductFromArray, getProductFromBounds, getSumFromArray, getSumFromBounds } from '../src/series';
+import { getProductFromArray, getProductFromBounds, getSumFromArray, getSumFromBounds } from '../src';
 describe('series', () => {
 	describe('from array', () => {
 		test('generates correctly', () => {
