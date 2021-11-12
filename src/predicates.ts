@@ -14,10 +14,10 @@ function isApproxEqual(a: number, b: number, epsilon: number = 0.001): boolean {
  *    the length of the array. It runs in a single-pass.
  * @example
  * ```ts
- * isArithmeticProgression([1, 2, 3, 4, 5, 6]); // true (common diff = 1)
- * isArithmeticProgression([2, 4, 6, 8, 10]); // true (common diff = 2)
- * isArithmeticProgression([7, 14, 21, 28, 35]); // true (common diff = 7)
- * isArithmeticProgression([1, 2, 3, 4, 5, 7]); // false (5 + 1 ≠ 7)
+ * isArithmeticProgression([1, 2, 3, 4, 5, 6]); // [true, 1]
+ * isArithmeticProgression([2, 4, 6, 8, 10]); // [true, 2]
+ * isArithmeticProgression([7, 14, 21, 28, 35]); // [true, 7]
+ * isArithmeticProgression([1, 2, 3, 4, 5, 7]); // [false, NaN]
  * ```
  * @param sequence - - a sequence of numbers
  * @returns a 2-tuple containing:
@@ -49,10 +49,10 @@ export function isArithmeticProgression(sequence: number[]): ProgressionResult {
  *    the length of the array. It runs in a single-pass.
  * @example
  * ```ts
- * isGeometricProgression([2, 4, 8, 16, 32, 64]); // true (common ratio = 2)
- * isGeometricProgression([2, 12, 72, 432]); // true (common ratio = 6)
- * isGeometricProgression([2, 5, 12.5, 31.25]); // true (common ratio = 2.5)
- * isGeometricProgression([100, 50, 25, 12.5, 6.25, 3.125, 1.5625, 0.78125]); // true (common ratio = 1/2)
+ * isGeometricProgression([2, 4, 8, 16, 32, 64]); // [true, 2]
+ * isGeometricProgression([2, 12, 72, 432]); // [true, 6]
+ * isGeometricProgression([2, 5, 12.5, 31.25]); // [true, 2.5]
+ * isGeometricProgression([100, 50, 25, 12.5, 6.25, 3.125, 1.5625, 0.78125]); // [true, 1/2]
  * ```
  * @param sequence - - a sequence of positive numbers
  * @throws {@link RangeError} if the sequence only has 1 number
@@ -79,7 +79,7 @@ export function isGeometricProgression(sequence: number[]): ProgressionResult {
  *    the length of the array. It runs in a single-pass.
  * @example
  * ```
- * isHarmonicProgression([1, 1/2, 1/3, 1/4, 1/5]); // true
+ * isHarmonicProgression([1, 1/2, 1/3, 1/4, 1/5]); // [true, 1]
  * ```
  * @param sequence - a sequence of numbers
  * @throws {@link RangeError} if the sequence has less than 2 numbers
