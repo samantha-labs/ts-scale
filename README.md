@@ -4,6 +4,7 @@
 [![codecov](https://codecov.io/gh/neoncitylights/ts-scale/branch/main/graph/badge.svg?token=c7KOrPxoIb)](https://codecov.io/gh/neoncitylights/ts-scale)
 [![Node.js workflow](https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml/badge.svg)](https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml)
 [![GitHub Pages Docs](https://img.shields.io/badge/gh--pages--docs-running-brightgreen)](https://neoncitylights.github.io/ts-scale/)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fneoncitylights%2Fts-scale.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fneoncitylights%2Fts-scale?ref=badge_shield)
 
 A mathematical library in TypeScript for working with progressions - sequences of numbers that convey a certain pattern.
 
@@ -83,3 +84,6 @@ This library is licensed under the [MIT License](./LICENSE).
 [^arithm-wiki]: Wikipedia contributors. (2021, October 22). Arithmetic progression. In Wikipedia, The Free Encyclopedia. Retrieved 21:13, October 30, 2021, from https://en.wikipedia.org/w/index.php?title=Arithmetic_progression&oldid=1051249503
 [^geo-wiki]: Wikipedia contributors. (2021, September 9). Geometric progression. In Wikipedia, The Free Encyclopedia. Retrieved 21:11, October 30, 2021, from https://en.wikipedia.org/w/index.php?title=Geometric_progression&oldid=1043380314
 [^harmonic-wiki]: Wikipedia contributors. (2021, April 28). Harmonic progression (mathematics). In Wikipedia, The Free Encyclopedia. Retrieved 21:14, October 30, 2021, from https://en.wikipedia.org/w/index.php?title=Harmonic_progression_(mathematics)&oldid=1020361383
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fneoncitylights%2Fts-scale.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fneoncitylights%2Fts-scale?ref=badge_large)
