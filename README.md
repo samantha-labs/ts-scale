@@ -66,13 +66,13 @@ This library can be used to generate a typography scale for web projects.
 
 For example, to generate a scale on a major second where the base font size is `16px`:
 ```ts
-newGeometricProgression(16, MajorSecond, 6).map(n => `${n.toFixed(3)}px`);
+newGeometricProgression(16, 6, MajorSecond).map(n => `${n.toFixed(3)}px`);
 // ["16.000px", "18.000px", "20.250px", "22.781px", "25.629px", "28.833px"]
 ```
 
 These floating points aren't easy to remember, so we have the option to modify this scale by rounding each value:
 ```ts
-newGeometricProgression(16, MajorSecond, 6).map(n => `${Math.round(n)}px`);
+newGeometricProgression(16, 6, MajorSecond).map(n => `${Math.round(n)}px`);
 // ["16px", "18px", "20px", "23px", "26px", "29px"]
 ```
 
