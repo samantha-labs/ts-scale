@@ -76,14 +76,13 @@ newGeometricProgression(16, MajorSecond, 6).map(n => `${Math.round(n)}px`);
 // ["16px", "18px", "20px", "23px", "26px", "29px"]
 ```
 
-# License
+## License
 This library is licensed under the [MIT License](./LICENSE).
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fneoncitylights%2Fts-scale.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fneoncitylights%2Fts-scale?ref=badge_large)
 
 [^arith-wolfram]: Weisstein, Eric W. "Arithmetic Progression." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/ArithmeticProgression.html 
 [^geo-wolfram]:  Weisstein, Eric W. "Geometric Sequence." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/GeometricSequence.html 
 [^arithm-wiki]: Wikipedia contributors. (2021, October 22). Arithmetic progression. In Wikipedia, The Free Encyclopedia. Retrieved 21:13, October 30, 2021, from https://en.wikipedia.org/w/index.php?title=Arithmetic_progression&oldid=1051249503
 [^geo-wiki]: Wikipedia contributors. (2021, September 9). Geometric progression. In Wikipedia, The Free Encyclopedia. Retrieved 21:11, October 30, 2021, from https://en.wikipedia.org/w/index.php?title=Geometric_progression&oldid=1043380314
 [^harmonic-wiki]: Wikipedia contributors. (2021, April 28). Harmonic progression (mathematics). In Wikipedia, The Free Encyclopedia. Retrieved 21:14, October 30, 2021, from https://en.wikipedia.org/w/index.php?title=Harmonic_progression_(mathematics)&oldid=1020361383
-
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fneoncitylights%2Fts-scale.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fneoncitylights%2Fts-scale?ref=badge_large)
