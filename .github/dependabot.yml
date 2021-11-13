@@ -9,9 +9,11 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    include: "scope"
+    commit-message:
+      include: "scope"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
-    include: "scope"
+    commit-message:
+      include: "scope"
