@@ -11,27 +11,40 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout repository 🛎️
         uses: actions/checkout@v2
+
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
           node-version: '14'
           cache: 'npm'
-      - name: Install
-        run: npm install
-      - name: Unit tests and lint
+
+      - uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install 📥
+        run: npm ci
+
+      - name: Unit tests and lint 🧪
         run: npm run test:all
-      - name: Build
+
+      - name: Build 🏗️
         run: npm run build:all
-      - name: Deploy documentation
+
+      - name: Deploy documentation 🚀
         run: |
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         if: ${{ github.event_name == 'push' }}
-      - name: Upload code coverage
+
+      - name: Upload code coverage ☂️
         uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
