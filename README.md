@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![npm (scoped)](https://img.shields.io/npm/v/@neoncitylights/scale)
 [![codecov](https://codecov.io/gh/samantha-labs/ts-scale/branch/main/graph/badge.svg?token=c7KOrPxoIb)](https://codecov.io/gh/samantha-labs/ts-scale)
-[![Node.js workflow](https://github.com/samantha-labs/ts-scale/actions/workflows/main.yml/badge.svg)](https://github.com/samantha-labs/ts-scale/actions/workflows/main.yml)
+[![Node.js workflow](https://github.com/samantha-labs/ts-scale/actions/workflows/ci.yml/badge.svg)](https://github.com/samantha-labs/ts-scale/actions/workflows/ci.yml)
 [![GitHub Pages Docs](https://img.shields.io/badge/gh--pages--docs-running-brightgreen)](https://samantha-labs.github.io/ts-scale/)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsamantha-labs%2Fts-scale.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsamantha-labs%2Fts-scale?ref=badge_shield)
 
