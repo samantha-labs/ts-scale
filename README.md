@@ -40,8 +40,8 @@ There are 3 types of a progression in math:
  * <a href="#isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#isHarmonicProgression)
 
 #### Totals (sums and products)
- * <a href="#getProductFromArray">#</a> total.**getProductFromArray**(*factors*, *lambda*): number • [source](./src/total.ts), [docs]((https://samantha-labs.github.io/ts-scale/modules.html#getProductFromArray)
- * <a href="#getProductFromBounds">#</a> total.**getProductFromBounds**(*lower*, *upper*, *lambda*): number • [source], [docs](./src/total.ts)(https://samantha-labs.github.io/ts-scale/modules.html#getProductFromBounds)
+ * <a href="#getProductFromArray">#</a> total.**getProductFromArray**(*factors*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getProductFromArray)
+ * <a href="#getProductFromBounds">#</a> total.**getProductFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getProductFromBounds)
  * <a href="#getSumFromArray">#</a> total.**getSumFromArray**(*summands*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getSumFromArray)
  * <a href="#getSumFromBounds">#</a> total.**getSumFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getSumFromBounds)
 #### Constants
