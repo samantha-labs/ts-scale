@@ -61,6 +61,33 @@ There are constants for certain music intervals that can be used coincide with t
 * <a href="#emptyProduct">#</a> EmptyProduct
 
 ## Examples
+### Convergent series
+Given a length of an arbitrarily large number, we can prove, model, and visualize convergent series; that is, a sum of all summands which results in a finite number.
+
+We can use `newArithmeticProgression` to find the sequence of summands, and `getSumFromArray()` for passing in the summands for the sum; we can also only use `getSumFromBounds()` to find the sum.
+
+For example:
+```ts
+const ARBITRARILY_LARGE_LIMIT = 500;
+getSumFromBounds(1, ARBITRARILY_LARGE_LIMIT, (n) => (Math.pow(-1, n+1)/Math.pow(2, n)));
+// absolute alternating convergence
+// 1/2 − 1/4 + 1/8 − 1/16 + ⋯ = 0.3333333333333333 (1/3)
+
+getSumFromBounds(1, ARBITRARILY_LARGE_LIMIT, (n) => (1/Math.pow(4,n)));
+// 1/4 + 1/16 + 1/64 + 1/256 + ⋯ = 0.3333333333333333 (1/3)
+
+getSumFromBounds(1, ARBITRARILY_LARGE_LIMIT, (n) => Math.pow(1/2, n));
+// 1/2 + 1/4 + 1/8 + 1/16 + ⋯ = 1
+
+getSumFromBounds(1, ARBITRARILY_LARGE_LIMIT, (n) => 1/(n * (n-1)));
+// 1/2 + 1/4 + 1/6 + 1/12 + 1/20 + 1/30 + ⋯ = 0
+
+const riemannZeta = (s: number, limit: ABSOLUTELY_LARGE_LIMIT) => {
+  getSumFromBounds(1, n, (n) => 1/(n ** s));
+}
+
+```
+
 ### Typographic scales
 This library can be used to generate a typography scale for web projects.
 
