@@ -1,10 +1,10 @@
 # `@neoncitylights/scale`
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 ![npm (scoped)](https://img.shields.io/npm/v/@neoncitylights/scale)
-[![codecov](https://codecov.io/gh/neoncitylights/ts-scale/branch/main/graph/badge.svg?token=c7KOrPxoIb)](https://codecov.io/gh/neoncitylights/ts-scale)
-[![Node.js workflow](https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml/badge.svg)](https://github.com/neoncitylights/ts-scale/actions/workflows/main.yml)
-[![GitHub Pages Docs](https://img.shields.io/badge/gh--pages--docs-running-brightgreen)](https://neoncitylights.github.io/ts-scale/)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fneoncitylights%2Fts-scale.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fneoncitylights%2Fts-scale?ref=badge_shield)
+[![codecov](https://codecov.io/gh/samantha-labs/ts-scale/branch/main/graph/badge.svg?token=c7KOrPxoIb)](https://codecov.io/gh/samantha-labs/ts-scale)
+[![Node.js workflow](https://github.com/samantha-labs/ts-scale/actions/workflows/main.yml/badge.svg)](https://github.com/samantha-labs/ts-scale/actions/workflows/main.yml)
+[![GitHub Pages Docs](https://img.shields.io/badge/gh--pages--docs-running-brightgreen)](https://samantha-labs.github.io/ts-scale/)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsamantha-labs%2Fts-scale.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsamantha-labs%2Fts-scale?ref=badge_shield)
 
 A mathematical library in TypeScript for working with progressions - sequences of numbers that convey a certain pattern.
 
@@ -14,7 +14,7 @@ npm install @neoncitylights/scale
 ```
 
 ## Documentation
-[Auto-generated API documentation is available](https://neoncitylights.github.io/ts-scale/).
+[Auto-generated API documentation is available](https://samantha-labs.github.io/ts-scale/).
 
 There are 3 types of a progression in math:
   - **Arithmetic progression**: A sequence of numbers where the consecutive difference between each term is a constant.[^arith-wolfram][^arithm-wiki] E.g., an arithmetic progression of 5 numbers, with 2 as the common difference, starting at 1:
@@ -31,19 +31,19 @@ There are 3 types of a progression in math:
     ```
 ### API
 #### Generators
- * <a href="#newArithmeticProgression">#</a> generators.**newArithmeticProgression**(*startNumber*, *length*, *step*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newArithmeticProgression)
- * <a href="#newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newGeometricProgression)
- * <a href="#newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#newHarmonicProgression)
+ * <a href="#newArithmeticProgression">#</a> generators.**newArithmeticProgression**(*startNumber*, *length*, *step*): *number[]* • [source](./src/generators.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#newArithmeticProgression)
+ * <a href="#newGeometricProgression">#</a> generators.**newGeometricProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#newGeometricProgression)
+ * <a href="#newHarmonicProgression">#</a> generators.**newHarmonicProgression**(*startNumber*, *length*, *scale*): *number[]* • [source](./src/generators.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#newHarmonicProgression)
 #### Predicates
- * <a href="#isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isArithmeticProgression)
- * <a href="#isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isGeometricProgression)
- * <a href="#isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://neoncitylights.github.io/ts-scale/modules.html#isHarmonicProgression)
+ * <a href="#isArithmeticProgression">#</a> predicates.**isArithmeticProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://samantha-labs.io/ts-scale/modules.html#isArithmeticProgression)
+ * <a href="#isGeometricProgression">#</a> predicates.**isGeometricProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#isGeometricProgression)
+ * <a href="#isHarmonicProgression">#</a> predicates.**isHarmonicProgression**(*numbers*): *ProgressionResult* • [source](./src/predicates.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#isHarmonicProgression)
 
 #### Totals (sums and products)
- * <a href="#getProductFromArray">#</a> total.**getProductFromArray**(*factors*, *lambda*): number • [source](./src/total.ts)
- * <a href="#getProductFromBounds">#</a> total.**getProductFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts)
- * <a href="#getSumFromArray">#</a> total.**getSumFromArray**(*summands*, *lambda*): number • [source](./src/total.ts)
- * <a href="#getSumFromBounds">#</a> total.**getSumFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts)
+ * <a href="#getProductFromArray">#</a> total.**getProductFromArray**(*factors*, *lambda*): number • [source](./src/total.ts), [docs]((https://samantha-labs.github.io/ts-scale/modules.html#getProductFromArray)
+ * <a href="#getProductFromBounds">#</a> total.**getProductFromBounds**(*lower*, *upper*, *lambda*): number • [source], [docs](./src/total.ts)(https://samantha-labs.github.io/ts-scale/modules.html#getProductFromBounds)
+ * <a href="#getSumFromArray">#</a> total.**getSumFromArray**(*summands*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getSumFromArray)
+ * <a href="#getSumFromBounds">#</a> total.**getSumFromBounds**(*lower*, *upper*, *lambda*): number • [source](./src/total.ts), [docs](https://samantha-labs.github.io/ts-scale/modules.html#getSumFromBounds)
 #### Constants
 There are constants for certain music intervals that can be used coincide with the generator functions.
 
@@ -79,7 +79,7 @@ newGeometricProgression(16, 6, MajorSecond).map(n => `${Math.round(n)}px`);
 ## License
 This library is licensed under the [MIT License](./LICENSE).
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fneoncitylights%2Fts-scale.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fneoncitylights%2Fts-scale?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsamantha-labs%2Fts-scale.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsamantha-labs%2Fts-scale?ref=badge_large)
 
 [^arith-wolfram]: Weisstein, Eric W. "Arithmetic Progression." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/ArithmeticProgression.html 
 [^geo-wolfram]:  Weisstein, Eric W. "Geometric Sequence." From MathWorld--A Wolfram Web Resource. https://mathworld.wolfram.com/GeometricSequence.html 
