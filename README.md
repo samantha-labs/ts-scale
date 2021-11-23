@@ -62,7 +62,7 @@ There are constants for certain music intervals that can be used coincide with t
 
 ## Examples
 ### Convergent series
-Given a length of an arbitrarily large number, we can prove, model, and visualize convergent series; that is, a sum of all summands which results in a finite number.
+Given a length of an arbitrarily large number, we can prove, model, and visualize convergent series; that is, the sum of an infinite sequence resulting in a finite number.
 
 We can use `newArithmeticProgression` to find the sequence of summands, and `getSumFromArray()` for passing in the summands for the sum; we can also only use `getSumFromBounds()` to find the sum.
 
@@ -85,7 +85,6 @@ getSumFromBounds(1, ARBITRARILY_LARGE_LIMIT, (n) => 1/(n * (n-1)));
 const riemannZeta = (s: number, limit: ABSOLUTELY_LARGE_LIMIT) => {
   getSumFromBounds(1, n, (n) => 1/(n ** s));
 }
-
 ```
 
 ### Typographic scales
