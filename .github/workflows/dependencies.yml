@@ -13,7 +13,7 @@ jobs:
       uses: ahmadnassri/action-dependabot-auto-merge@v2.6
       with:
         # The GitHub token used to merge the pull-request
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.AUTO_MERGE_DEPS }}
         # Path to configuration file (relative to root)
         # The command to pass to Dependabot as a comment
         command: merge
