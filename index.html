@@ -42,6 +42,8 @@
 </li>
 <li><strong>Harmonic progression</strong>: A sequence of numbers where each term is the harmonic mean of its previous term and next term.[^harmonic-wiki] E.g., a harmonic progression of 6 numbers, with 2 as the scaling value, starting at 1:<pre><code class="language-ts"><span class="hl-0">[</span><span class="hl-1">1</span><span class="hl-0">, </span><span class="hl-1">1</span><span class="hl-2">/</span><span class="hl-1">2</span><span class="hl-0">, </span><span class="hl-1">1</span><span class="hl-2">/</span><span class="hl-1">3</span><span class="hl-0">, </span><span class="hl-1">1</span><span class="hl-2">/</span><span class="hl-1">4</span><span class="hl-0">, </span><span class="hl-1">1</span><span class="hl-2">/</span><span class="hl-1">5</span><span class="hl-0">, </span><span class="hl-1">1</span><span class="hl-2">/</span><span class="hl-1">6</span><span class="hl-0">]</span>
 </code></pre>
+</li>
+</ul>
 
 <a href="#api" id="api" style="color: inherit; text-decoration: none;">
   <h3>API</h3>
@@ -50,16 +52,16 @@
 <a href="#generators" id="generators" style="color: inherit; text-decoration: none;">
   <h4>Generators</h4>
 </a>
-</li>
-</ul>
 <ul>
 <li><a href="#newArithmeticProgression">#</a> generators.<strong>newArithmeticProgression</strong>(<em>startNumber</em>, <em>length</em>, <em>step</em>): <em>number[]</em> • <a href="./src/generators.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#newArithmeticProgression">docs</a></li>
 <li><a href="#newGeometricProgression">#</a> generators.<strong>newGeometricProgression</strong>(<em>startNumber</em>, <em>length</em>, <em>scale</em>): <em>number[]</em> • <a href="./src/generators.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#newGeometricProgression">docs</a></li>
-<li><a href="#newHarmonicProgression">#</a> generators.<strong>newHarmonicProgression</strong>(<em>startNumber</em>, <em>length</em>, <em>scale</em>): <em>number[]</em> • <a href="./src/generators.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#newHarmonicProgression">docs</a>
+<li><a href="#newHarmonicProgression">#</a> generators.<strong>newHarmonicProgression</strong>(<em>startNumber</em>, <em>length</em>, <em>scale</em>): <em>number[]</em> • <a href="./src/generators.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#newHarmonicProgression">docs</a></li>
+</ul>
+
 <a href="#predicates" id="predicates" style="color: inherit; text-decoration: none;">
   <h4>Predicates</h4>
 </a>
-</li>
+<ul>
 <li><a href="#isArithmeticProgression">#</a> predicates.<strong>isArithmeticProgression</strong>(<em>numbers</em>): <em>ProgressionResult</em> • <a href="./src/predicates.ts">source</a>, <a href="https://samantha-labs.io/ts-scale/modules.html#isArithmeticProgression">docs</a></li>
 <li><a href="#isGeometricProgression">#</a> predicates.<strong>isGeometricProgression</strong>(<em>numbers</em>): <em>ProgressionResult</em> • <a href="./src/predicates.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#isGeometricProgression">docs</a></li>
 <li><a href="#isHarmonicProgression">#</a> predicates.<strong>isHarmonicProgression</strong>(<em>numbers</em>): <em>ProgressionResult</em> • <a href="./src/predicates.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#isHarmonicProgression">docs</a></li>
@@ -69,43 +71,29 @@
   <h4>Totals (sums and products)</h4>
 </a>
 <ul>
-<li><p><a href="#getProductFromArray">#</a> total.<strong>getProductFromArray</strong>(<em>factors</em>, <em>lambda</em>): number • <a href="./src/total.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#getProductFromArray">docs</a></p>
-</li>
-<li><p><a href="#getProductFromBounds">#</a> total.<strong>getProductFromBounds</strong>(<em>lower</em>, <em>upper</em>, <em>lambda</em>): number • <a href="./src/total.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#getProductFromBounds">docs</a></p>
-</li>
-<li><p><a href="#getSumFromArray">#</a> total.<strong>getSumFromArray</strong>(<em>summands</em>, <em>lambda</em>): number • <a href="./src/total.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#getSumFromArray">docs</a></p>
-</li>
-<li><p><a href="#getSumFromBounds">#</a> total.<strong>getSumFromBounds</strong>(<em>lower</em>, <em>upper</em>, <em>lambda</em>): number • <a href="./src/total.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#getSumFromBounds">docs</a></p>
+<li><a href="#getProductFromArray">#</a> total.<strong>getProductFromArray</strong>(<em>factors</em>, <em>lambda</em>): number • <a href="./src/total.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#getProductFromArray">docs</a></li>
+<li><a href="#getProductFromBounds">#</a> total.<strong>getProductFromBounds</strong>(<em>lower</em>, <em>upper</em>, <em>lambda</em>): number • <a href="./src/total.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#getProductFromBounds">docs</a></li>
+<li><a href="#getSumFromArray">#</a> total.<strong>getSumFromArray</strong>(<em>summands</em>, <em>lambda</em>): number • <a href="./src/total.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#getSumFromArray">docs</a></li>
+<li><a href="#getSumFromBounds">#</a> total.<strong>getSumFromBounds</strong>(<em>lower</em>, <em>upper</em>, <em>lambda</em>): number • <a href="./src/total.ts">source</a>, <a href="https://samantha-labs.github.io/ts-scale/modules.html#getSumFromBounds">docs</a></li>
+</ul>
 
 <a href="#constants" id="constants" style="color: inherit; text-decoration: none;">
   <h4>Constants</h4>
 </a>
 <p>There are constants for certain music intervals that can be used coincide with the generator functions.</p>
-</li>
-<li><p><a href="#minorSecond">#</a> MinorSecond</p>
-</li>
-<li><p><a href="#majorSecond">#</a> MajorSecond</p>
-</li>
-<li><p><a href="#minorThird">#</a> MinorThird</p>
-</li>
-<li><p><a href="#majorThird">#</a> MajorThird</p>
-</li>
-<li><p><a href="#perfectThird">#</a> PerfectThird</p>
-</li>
-<li><p><a href="#augmentedFourth">#</a> AugmentedFourth</p>
-</li>
-<li><p><a href="#perfectFifth">#</a> PerfectFifth</p>
-</li>
-<li><p><a href="#goldenRatio">#</a> GoldenRatio</p>
-</li>
-<li><p><a href="#majorSixth">#</a> MajorSixth</p>
-</li>
-<li><p><a href="#majorSeventh">#</a> MajorSeventh</p>
-</li>
-<li><p><a href="#emptySum">#</a> EmptySum</p>
-</li>
-<li><p><a href="#emptyProduct">#</a> EmptyProduct</p>
-</li>
+<ul>
+<li><a href="#minorSecond">#</a> MinorSecond</li>
+<li><a href="#majorSecond">#</a> MajorSecond</li>
+<li><a href="#minorThird">#</a> MinorThird</li>
+<li><a href="#majorThird">#</a> MajorThird</li>
+<li><a href="#perfectThird">#</a> PerfectThird</li>
+<li><a href="#augmentedFourth">#</a> AugmentedFourth</li>
+<li><a href="#perfectFifth">#</a> PerfectFifth</li>
+<li><a href="#goldenRatio">#</a> GoldenRatio</li>
+<li><a href="#majorSixth">#</a> MajorSixth</li>
+<li><a href="#majorSeventh">#</a> MajorSeventh</li>
+<li><a href="#emptySum">#</a> EmptySum</li>
+<li><a href="#emptyProduct">#</a> EmptyProduct</li>
 </ul>
 
 <a href="#examples" id="examples" style="color: inherit; text-decoration: none;">
